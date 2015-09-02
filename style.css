@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+/* GENERAL
+----------------------------  */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%; 
+	font-size: 	0.7em; /* 14 */
+	line-height: 1.5;
+}
+
+div#container {
+	width: 946px;
+	margin: 0 auto;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	color: #4289bf;
+	font-weight: 500;
+}
+
+a:visited, a:hover {
+	font-weight: bold;	
+}
+
+ul {
+	list-type-style: none;
+}
+
+
+/* MASTHEAD
+----------------------------  */
+header a#logo {
+	float: left;
+	position: relative;
+	top: 0px;
+	z-index: 2;
+}
+
+header nav {
+	height: 41px;
+	max-width: 100%;
+	background-color: #D6D6D6;
+	background-image: url(../img/tile.gif);
+	background-repeat: repeat-x;
+}
+
+header nav li {
+	float: left;
+	line-height: 2;	
+	padding: 9px 16px;
+	border-right: 1.3px solid #1D1C1C; 
+}
+
+header ul a {
+	color: #e6e7eb;
+}
+
+header nav img#search {
+	float: right;
+	display: inline-block;	
+	padding-top: 5px;
+    padding-right: 6px;
+}
+
+header img#mainimage {
+	position: relative;
+	top: -28px;
+}
+
+
+/* MAIN CONTENT
+----------------------------  */
+section {
+	margin-top: -16px;
+}
+
+section div {
+	float: left;
+	width: 308px;
+	height: 223px;
+	margin-bottom: 10px;
+}
+
+section div.large-img img {
+	width: 100%;
+}
+
+section div.right-img {
+	margin-left: 11px;
+			
+}
+
+section h2.sub-title {
+	padding-top: 6px;
+}
+
+section h2#offers {
+	float: right;
+}
+
+section img.thumbnail {
+	float: left;	
+}
+
+section img.second-row-img {
+	margin-bottom: 10px;	
+}
+
+section h2.learning-help, p.learning-help {
+	margin-left: 68px;
+}
+
+section ul.resources {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+section div#download li {
+	height: 38px;
+	border-bottom: solid 0.7px #3a3a3a;
+	clear: both;
+}
+
+section div#download img {
+	float: left;
+}
+
+section div#download p {
+	line-height: 3.8;
+}
+
+section div#download a {
+	color: #3a3a3a;
+}
+
+
+/* PAGE FOOTER
+----------------------------  */
+footer {
+	clear: both;
+	height: 41px;
+	max-width: 100%;
+	background-color: #D6D6D6;
+	background-image: url(../img/tile.gif);
+	background-repeat: repeat-x;
+}
+
+footer small {
+	color: #e6e7eb;
+	line-height: 4.5;
+	margin-left: 6px;
+}
